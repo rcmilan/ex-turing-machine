@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex-turing-m", "ex-turing-m\ex-turing-m.csproj", "{A9202C2C-0742-47BB-A155-8844015291A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex-turing-m.tests", "ex-turing-m.tests\ex-turing-m.tests.csproj", "{BB81DF7B-3F91-41DB-9F53-C539F72C011A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9202C2C-0742-47BB-A155-8844015291A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9202C2C-0742-47BB-A155-8844015291A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9202C2C-0742-47BB-A155-8844015291A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9202C2C-0742-47BB-A155-8844015291A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB81DF7B-3F91-41DB-9F53-C539F72C011A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB81DF7B-3F91-41DB-9F53-C539F72C011A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB81DF7B-3F91-41DB-9F53-C539F72C011A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB81DF7B-3F91-41DB-9F53-C539F72C011A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFF100FF-6EBE-41B4-B908-21584CA97D91}
+	EndGlobalSection
+EndGlobal
