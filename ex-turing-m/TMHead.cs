@@ -2,8 +2,6 @@
 {
     public class TMHead(TMTape tape, TMInstruction[] instructions, string initialState)
     {
-        public static readonly TMInstruction HaltInstruction = new(default, default, default, default);
-
         public IEnumerable<TMTape> Execute()
         {
             while (true)
@@ -11,7 +9,7 @@
                 char currentSymbol = tape.Read();
                 TMInstruction instruction = FindInstruction(currentSymbol, initialState);
 
-                if (instruction == HaltInstruction)
+                if (instruction == TMInstruction.HaltInstruction)
                 {
                     Console.WriteLine("No instruction found for current state and symbol.");
                     yield return tape;
